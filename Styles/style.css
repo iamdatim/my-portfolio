@@ -1,0 +1,439 @@
+p{
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#home{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#container{
+  height: 680px;
+  width: 100%;
+  background-image: url(../banner-pic.png);
+  background-size: cover;
+  background-position: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#header-about{
+  padding-top: 200px;
+  font-size: 45px;
+  color: white;
+  font-weight: 500;
+  font-family: Lilita One;
+}
+
+#header-about2{
+  padding-top: 5px;
+  font-size: 45px;
+  color: #0d19a3;
+  font-weight: 500;
+  font-family: Lilita One;
+}
+
+#header-about3{
+  padding-top: 5px;
+  font-size: 45px;
+  color: white;
+  font-weight: 500;
+  font-family: Lilita One;
+  
+}
+
+/* Nav Bar */
+
+#website-logo{
+  height: 40px;
+  margin-top: 4px;
+  margin-left: 30px;
+}
+
+#header-text{
+  color: white;
+  font-family: Lilita One;
+  font-weight: 500;
+  font-size: large;
+  display: inline;
+}
+#header-id{
+  display: inline;
+  padding-bottom: 30px;
+}
+
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0d19a3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  li {
+    display: inline;
+    float: left;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+
+  a {
+    display: block;
+    padding: 8px;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #contact-button{
+    margin-right: 200px;
+  }
+
+  /* Change the navbar list hover color here */
+li a:hover {
+    color: rgb(169, 168, 168);
+  }
+
+  .active {
+    background-color: #c7d1cd;
+  }
+
+/* Banner Pics Section */
+  .banner-picture{
+    width: 100%;
+    
+  }
+
+/* About Me Section*/
+  #about-me-header{
+    font-weight: 500;
+    font-size: xx-large;
+    color: #0d19a3;
+    margin-top: 150px;
+  }
+
+  #my-name{
+    color: rgb(72, 71, 71);
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+
+  #about-me-writeup{
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 12px; 
+  }
+
+  #about-grid{
+    background-color: white;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  
+  #my-pic{
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 300px;
+    border-radius: 30px;
+
+  }
+
+
+/* Services Section*/
+  #service-section{
+    background-color: #0d19a3;
+    height: 900px;
+  }
+
+  #service-header-section{
+    background-color: #0d19a3;
+    padding-top: 30px;
+  }
+
+  #service-header{
+    padding-top: 30px;
+    color: rgb(21, 219, 149);
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+  .service-section-grid{
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    column-gap: 25px;
+    row-gap: 40px;
+    padding-top: 50px;
+
+  }
+
+/* Service First Row */
+  #wordpress-section{
+    background-color: #0d19a3;
+    height: 300px;
+    width: 340px;
+    margin-left: 150px;
+    transition: box-shadow 0.3s;
+    transition: background-color 1s,
+    color 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  #wordpress-section:hover{
+    background-color: #6472be;
+    box-shadow: 5px 5px 5px rgba(0.15, 0.15, 0, 0.15);
+  }
+
+  .wordpress-pic{
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 148px;
+    margin-bottom: 10px;
+  }
+
+  #html-section{
+    background-color: #0d19a3;
+    height: 300px;
+    width: 340px;
+    margin-left: 150px;
+    transition: box-shadow 0.3s;
+    transition: background-color 1s,
+    color 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  #html-section:hover{
+    background-color: #6472be;
+    box-shadow: 5px 5px 5px rgba(0.15, 0.15, 0, 0.15);
+  }
+
+  .html-pic{
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 148px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+
+  #dotnet-section{
+    background-color: #0d19a3;
+    height: 300px;
+    width: 340px;
+    margin-left: 150px;
+    transition: box-shadow 0.3s;
+    transition: background-color 1s,
+    color 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  #dotnet-section:hover{
+    background-color: #6472be;
+    box-shadow: 5px 5px 5px rgba(0.15, 0.15, 0, 0.15);
+  }
+
+  .dotnet-pic{
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 148px;
+    margin-bottom: 10px;
+  }
+
+
+  /* Service Second Row */
+  #javascript-section{
+    background-color: #0d19a3;
+    height: 300px;
+    width: 340px;
+    margin-left: 150px;
+    transition: box-shadow 0.3s;
+    transition: background-color 1s,
+    color 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  #javascript-section:hover{
+    background-color: #6472be;
+    box-shadow: 5px 5px 5px rgba(0.15, 0.15, 0, 0.15);
+  }
+
+  .javascript-pic{
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 148px;
+    margin-bottom: 10px;
+  }
+
+  #logo-section{
+    background-color: #0d19a3;
+    height: 300px;
+    width: 340px;
+    margin-left: 150px;
+    transition: box-shadow 0.3s;
+    transition: background-color 1s,
+    color 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  #logo-section:hover{
+    background-color: #6472be;
+    box-shadow: 5px 5px 5px rgba(0.15, 0.15, 0, 0.15);
+  }
+
+  .logo-pic{
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 148px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+
+  #support-section{
+    background-color: #0d19a3;
+    height: 300px;
+    width: 340px;
+    margin-left: 150px;
+    transition: box-shadow 0.3s;
+    transition: background-color 1s,
+    color 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  #support-section:hover{
+    background-color: #6472be;
+    box-shadow: 5px 5px 5px rgba(0.15, 0.15, 0, 0.15);
+  }
+
+  .support-pic{
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 148px;
+    margin-bottom: 10px;
+  }
+
+
+  .section-title{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .section-writeup{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
+
+/* Resume Section */
+#resume-section{
+  background-color: white;
+  height: 230px;
+  margin-top: 200px;
+}
+
+#resume-header{
+  color: #0d19a3;
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  padding-top: 20px;
+  font-family: Montserrat;
+}
+
+#cv-download-section{
+  background-color: #0d19a3;
+  height: 200px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#cv-download-btn{
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 585px;
+    margin-top: 20px;
+  }
+
+
+
+  #contact-section{
+    background-color:#0d19a3;
+    height: 220px;
+  }
+
+  #contact-header{
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 28px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+  }
+
+  #twitter-icon{
+    height: 70px;
+  }
+
+  #github-icon{
+    height: 70px;
+  }
+
+  .footer-link{
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 20px 10px;
+  }
+
+  #footer-div{
+    margin: 20px 10px;
+    display: inline;
+    margin-left: 520px;
+
+  }
+
+  #copyright-section{
+    background-color: white;
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  #copyright-writeup{
+    text-align: center;
+    padding-top: 10px;
+  }
